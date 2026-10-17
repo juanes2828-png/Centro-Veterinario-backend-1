@@ -49,7 +49,7 @@ public class Paciente {
         return dosisAcumulada;
     }
 
-    public Jaula getJaulaAsignada() {
+    public Jaula getJaula() {
         return jaula;
     }
 
