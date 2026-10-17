@@ -10,7 +10,7 @@ public class Perro extends Paciente {
         this.vacunado = vacunado;
     }
 
-    // Sobrescribimos setPeso para limitar a máximo 80kg (Regla 1)
+    // Sobrescribimos setPeso para limitar a máximo 80kg
     @Override
     public void setPeso(double peso) {
         if (peso > 0 && peso <= 80.0) {

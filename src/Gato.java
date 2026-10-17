@@ -8,7 +8,7 @@ public class Gato extends Paciente {
         setNivelEstres(nivelEstres);
     }
 
-    // Sobrescribimos setPeso para limitar a máximo 15kg (Regla 1)
+    // Sobrescribimos setPeso para limitar a máximo 15kg
     @Override
     public void setPeso(double peso) {
         if (peso > 0 && peso <= 15.0) {
